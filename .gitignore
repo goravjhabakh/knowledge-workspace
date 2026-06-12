@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# Editor & OS settings
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Docker/Local database volumes
+postgres_data/
+redis_data/

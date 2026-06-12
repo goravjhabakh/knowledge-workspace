@@ -1,0 +1,16 @@
+{
+  "name": "knowledge-workspace",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter \"*\" --parallel dev",
+    "build": "pnpm --filter \"*\" build",
+    "lint": "pnpm --filter \"*\" lint"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
