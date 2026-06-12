@@ -2,27 +2,31 @@
 
 ## Current Phase
 
-Planning
+Phase 1 - Foundation
 
 ## Current Focus
 
-- Project setup
-- Documentation
-- Architecture
+- Database design
+- Environment configuration
 
 ## Next Task
 
-- Database design
+- Database schema & migrations setup (Drizzle ORM)
 
 ---
 
 ## Completed
 
-### Repository Setup
+### Repository & Workspace Setup
 
 - Git initialized
 - GitHub repository created
 - Initial documentation created
+- pnpm workspace setup & root configs (.env.example, .gitignore, .editorconfig)
+- TypeScript configurations initialized (tsconfig.base.json)
+- Docker Compose configured for PostgreSQL 17 and Redis 8
+- apps/frontend (Vite/React/TS) boilerplate initialized and compiled
+- apps/backend (Express/TS) boilerplate initialized and compiled
 
 ### Architecture
 
